@@ -12,8 +12,8 @@ struct Navigation: Component {
             Link("About", target: About())
             Dropdown("@gowtham") {
                 Link("GitHub", target: About())
-                Link("LinkedIn", target: "https://linkedin.com/in/richardpiazza")
-                Link("Mastodon", target: "https://mastodon.social/@richardpiazza")
+                Link("LinkedIn", target: "")
+                Link("Gowtham", target: "")
             }
         }
         .navigationItemAlignment(.trailing)
