@@ -16,5 +16,6 @@ struct ContentLayout: ContentPage {
         Text(content.description)
         
         Text(content.body)
+        
     }
 }

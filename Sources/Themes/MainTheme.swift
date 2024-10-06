@@ -12,14 +12,17 @@ struct MyTheme: Theme {
             Head(for: page, in: context)
 
             Body {
-                Navigation()
-                
                 page.body
-
                 IgniteFooter()
             }
             .padding(.vertical, 80)
-            .class("container")
+//            .background(image: "/images/bg.jpg", contentMode: BackgroundImageContentMode.fill, position: .top, repeats: false)
+            .class("bg")
+            .class("content")
+//            .class("overlay-image")
+//            .class("")
+            
+
         }
     }
 }

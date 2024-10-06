@@ -26,6 +26,8 @@ struct About: StaticPage {
             }
             .width(10)
         }
+//        .background(image: "/images/bg.jpg", contentMode: BackgroundImageContentMode.original)
+
         
     }
 }
