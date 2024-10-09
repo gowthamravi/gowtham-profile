@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://richardpiazza.com/sitemap.xml
+Sitemap: https://gowthamravi.github.io/sitemap.xml

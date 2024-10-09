@@ -13,15 +13,6 @@ struct HomePage: StaticPage {
         Include("styles.html")
         profile
             .padding(.vertical, .extraLarge)
-            .opacity(2)
-        List {
-            "Intro"
-            "work"
-            "recommendations"
-            "about"
-            "contact"
-        }
-       
     }
 }
 
@@ -30,10 +21,9 @@ extension HomePage {
     var profile: some BlockElement {
         Group {
             introText
-                .frame(maxWidth: 720, alignment: .leading)
             Spacer(size: 50)
+            detailsTab
         }
-        
     }
     
     
@@ -44,7 +34,7 @@ extension HomePage {
                 .foregroundStyle(.white)
                 .margin(.bottom, .large)
             
-            Text("iOS Developer")
+            Text("iOS Developer | Swifty")
                 .foregroundStyle(.white)
                 .font(.title5)
                 .fontWeight(.regular)
@@ -54,6 +44,23 @@ extension HomePage {
                 .foregroundStyle(.white)
                 .font(.lead)
                 .fontWeight(.light)
+                .frame(width: 1000, alignment: .leading)
         }
+    }
+    
+    fileprivate var detailsTab: some BlockElement {
+        Text(markdown: """
+                    <header id="header">
+                        <nav>
+                            <ul>
+                                <li><a href="about">Intro</a></li>
+                                <li><a href="work">Works</a></li>
+                                <li><a href="recommendations">Recommendations</a></li>
+                                <li><a href="about">About</a></li>
+                                <li><a href="contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </header>
+""")
     }
 }

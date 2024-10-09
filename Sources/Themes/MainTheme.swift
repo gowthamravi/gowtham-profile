@@ -13,16 +13,10 @@ struct MyTheme: Theme {
 
             Body {
                 page.body
-                IgniteFooter()
             }
             .padding(.vertical, 80)
-//            .background(image: "/images/bg.jpg", contentMode: BackgroundImageContentMode.fill, position: .top, repeats: false)
             .class("bg")
             .class("content")
-//            .class("overlay-image")
-//            .class("")
-            
-
         }
     }
 }

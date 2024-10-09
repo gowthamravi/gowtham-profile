@@ -21,7 +21,7 @@ struct ProfileSite {
 
 struct MySite: Site {
     var name = "Gowtham Profile"
-    var url = URL(string: "https://richardpiazza.com")!
+    var url = URL(string: "https://gowthamravi.github.io")!
     var builtInIconsEnabled = true
     var author = "Gowtham"
     var syntaxHighlighters = [SyntaxHighlighter.swift, .python, .ruby]
@@ -29,7 +29,9 @@ struct MySite: Site {
     var theme = MyTheme()
     
     var pages: [any StaticPage] = [
-        About()
+        About(),
+        Recommendations(),
+        Work()
     ]
     
     var layouts: [any ContentPage] = [
