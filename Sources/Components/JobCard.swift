@@ -8,7 +8,7 @@
 
 import Ignite
 
-struct WorkCard: Component {
+struct JobCard: Component {
     let title: String
     let year: String
     let role: String

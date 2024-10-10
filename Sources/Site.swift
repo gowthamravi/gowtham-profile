@@ -34,7 +34,5 @@ struct MySite: Site {
         Work()
     ]
     
-    var layouts: [any ContentPage] = [
-        ContentLayout()
-    ]
+    var layouts: [any ContentPage] = []
 }

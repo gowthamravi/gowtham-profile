@@ -13,7 +13,7 @@ struct Work: StaticPage {
                 Spacer(size: .extraLarge)
                 
                                 
-                WorkCard(
+                JobCard(
                     title: "Google",
                     year: "May 2023 - Present",
                     role: "Lead Mobile Engineer",
@@ -39,7 +39,7 @@ struct Work: StaticPage {
                                 
                 Spacer(size: .extraLarge)
                 
-                WorkCard(
+                JobCard(
                     title: "News Corporation",
                     year: "September 2019 - April 2024",
                     role: "Senior iOS Developer",
@@ -66,7 +66,7 @@ struct Work: StaticPage {
                                 
                 Spacer(size: .extraLarge)
                 
-                WorkCard(
+                JobCard(
                     title: "Zoho",
                     year: "March 2017 - September 2018",
                     role: "Mobile Application Developer",
@@ -88,7 +88,7 @@ struct Work: StaticPage {
                 
                 Spacer(size: .extraLarge)
                 
-                WorkCard(
+                JobCard(
                     title: "DoodleBlue Innovation pvt ltd",
                     year: "Jul 2016 - March 2018",
                     role: "iOS Developer",
@@ -109,7 +109,7 @@ struct Work: StaticPage {
                 
                 Spacer(size: .extraLarge)
                 
-                WorkCard(
+                JobCard(
                     title: "Rifluxyss software pvt ltd",
                     year: "Dec 2013 - Jun 2016",
                     role: "iOS Developer",
