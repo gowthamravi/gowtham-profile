@@ -3,8 +3,6 @@
 //  gowtham-profile
 //
 
-
-import Foundation
 import Ignite
 
 struct Recommendations: StaticPage {

@@ -1,10 +1,16 @@
+
+//
+//  BadgeCard.swift
+//  gowtham-profile
+//
+
 import Ignite
 
 extension Card {
-    static func badgeCard(title: String, badges: [String], role: Role) -> Card {
+    static func skillCard(title: String, badges: [String], role: Role) -> Card {
         Card {
             Text(title)
-                .font(.title5)
+                .font(.title4)
                 .fontWeight(.regular)
             Text {
                 for badge in badges {

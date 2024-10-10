@@ -31,7 +31,9 @@ struct MySite: Site {
     var pages: [any StaticPage] = [
         About(),
         Recommendations(),
-        Work()
+        Work(),
+        Skills(),
+        Contact()
     ]
     
     var layouts: [any ContentPage] = []

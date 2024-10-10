@@ -56,7 +56,7 @@ extension HomePage {
                                 <li><a href="about">Intro</a></li>
                                 <li><a href="work">Works</a></li>
                                 <li><a href="recommendations">Recommendations</a></li>
-                                <li><a href="skill">Skill</a></li>
+                                <li><a href="skills">Skills</a></li>
                                 <li><a href="contact">Contact</a></li>
                             </ul>
                         </nav>

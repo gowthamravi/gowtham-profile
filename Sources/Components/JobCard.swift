@@ -1,10 +1,7 @@
 //
-//  WorkCard 2.swift
+//  JobCard.swift
 //  gowtham-profile
 //
-//  Created by Gowtham R on 09/10/24.
-//
-
 
 import Ignite
 
